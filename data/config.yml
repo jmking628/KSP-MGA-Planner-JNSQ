@@ -22,14 +22,14 @@ orbit:
 
 camera:
   startDist:          100           # distance from sun of start
-  maxDist:            300           # maximum distance that can be zoomed out
+  maxDist:            600           # maximum distance that can be zoomed out
   minDistRadii:       1.5           # minimum distance to a body, in radii of the focused body
   dampingFactor:      0.5           # camera motion damping
   rotateSpeed:        0.5           # camera rotation speed
 
 time:
-  hoursPerDay:        6             # number of hours in a day (Kerbal day)
-  daysPerYear:        426           # number of days per year (Kerbal year)
+  hoursPerDay:        12             # number of hours in a day (Kerbal day)
+  daysPerYear:        365           # number of days per year (Kerbal year)
 
 flybySequence:
   radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
@@ -58,7 +58,7 @@ trajectorySearch:
 editor:
   defaultOrigin:      3             # default origin body on start (index of Kerbin in the selector)
   defaultDest:        0             # default destination body on start (index of Moho in the selector)
-  defaultAltitude:    100           # default altitude from the default body (in km above surface)
+  defaultAltitude:    150           # default altitude from the default body (in km above surface)
 
 workers:
   progressStep:       250           # number of inputs processed per chunk before progress callback
